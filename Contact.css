@@ -1,0 +1,94 @@
+body {
+    font-family: 'Combo', cursive;
+    background-color: burlywood;
+}
+
+.navigation-wrapper {
+    height: 250px;
+    background-color: black;
+}
+
+.navigation-wrapper > {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 42px;
+    width: 500px;     
+}
+
+.navigation-wrapper > .Logo {
+display: flex;
+justify-content: center;
+}
+
+.navigation-wrapper > .Logo img{
+    width: 300px;
+    height: 100%;
+}
+
+.links-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.links-wrapper > .nav-link {
+    width: 70px;
+    text-align: center;
+}
+
+.links-wrapper > .nav-link a {
+    color: silver ;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.links-wrapper > .nav-link a:hover {
+    color: gold;
+    letter-spacing: 2px;
+}
+
+.Contact {
+    height: 300px;
+    width: 60%;
+    margin: 10px 20% ;
+}
+
+.Contact > .hours {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Contact > .phone {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Contact > .email {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Contact > .address {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Contact > .address a {
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.Contact > .address a:hover {
+    color: gold;
+}
+
+.background-image img{
+    width: 70%;
+    margin: 0px 15%;
+    border-radius: 15%;
+}
